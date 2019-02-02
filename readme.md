@@ -1,7 +1,7 @@
 # hyper-blend
 Set the opacity and background of your terminal!
 
-![hyper-blend-demo](demo/general.gif)
+![hyper-blend-demo](https://raw.githubusercontent.com/edkotkas/hyper-blend/master/demo/general.gif)
 
 This plugin is inspired by:
  - [hyper-background-image](https://www.npmjs.com/package/hyper-background-image)
