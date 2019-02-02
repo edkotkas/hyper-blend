@@ -43,6 +43,8 @@ The classes in use for the css adjustments are `.hyper_main` and `.terms_terms`,
 
 Any file type supported in a `background-image` property will work (like gifs), support for urls is planned.
 
+Add any of the following properties under `hyperBlend` to customize the plugin!
+
 ```js
 module.exports = {
   config: {
