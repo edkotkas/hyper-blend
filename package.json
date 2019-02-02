@@ -1,15 +1,33 @@
 {
   "name": "hyper-blend",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Set the opacity and background of your terminal!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Eduard Kotkas",
   "license": "ISC",
   "dependencies": {
     "is-image": "^2.0.0",
     "parse-color": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edkotkas/hyper-blend.git"
+  },
+  "keywords": [
+    "hyper",
+    "hyperterm",
+    "hypercli",
+    "background",
+    "opacity",
+    "terminal",
+    "blend"
+  ],
+  "bugs": {
+    "url": "https://github.com/edkotkas/hyper-blend/issues"
+  },
+  "homepage": "https://github.com/edkotkas/hyper-blend#readme"
 }

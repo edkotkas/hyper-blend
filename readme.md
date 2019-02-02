@@ -56,7 +56,7 @@ module.exports = {
         colorOpacity: 0.8
       },
       background: {
-        folder: "E:/Pictures/Webstorm/",
+        folder: "full/path/to/images",
         position: "center",
         size: "cover",
         repeat: "no-repeat"
