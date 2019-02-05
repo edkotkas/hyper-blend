@@ -41,9 +41,21 @@ function setOpacity() {
 }
 
 function assignConfig(config) {
+  // TODO: dynamic updating
   if (config.hyperBlend) {
-    terminal = Object.assign({}, defaultConfig, config.hyperBlend.terminal)
-    background = Object.assign({}, defaultConfig, config.hyperBlend.background)
+    const {terminal: term, background: bg} = config.hyperBlend
+    if (term) {
+      terminal.color = term.color || terminal.color
+      terminal.colorOpacity = term.colorOpacity || terminal.colorOpacity
+      terminal.opacity = term.opacity || terminal.opacity
+    }
+
+    if (bg) {
+      background.folder = bg.folder || background.folder
+      background.position = bg.position || background.position
+      background.repeat = bg.repeat || background.repeat
+      background.size = bg.size || background.size
+    }
   }
 }
 
